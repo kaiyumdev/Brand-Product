@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-image: url(./images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color:white;
+    margin: 0;
+}
+
+/* service section start */
+.service-text{
+    text-align: center;
+    margin-top: 65px;
+}
+.web-service{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 350px;
+}
+.commerce{
+    width: 33%;
+    text-align: center;
+}
+.commerce i{
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    background-color: orange;
+    margin:10px;
+}
+.design{
+    width: 33%;
+    text-align: center;
+}
+.design i{
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    background-color: orange;
+    margin:10px;
+}
+.security{
+    width: 33%;
+    text-align: center;
+}
+.security i{
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    background-color: orange;
+    margin:10px;
+}
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 40px;
+    color: orange;
+    border-radius: 20px;
+    padding: 20px;
+  }
+/* service section end */
+
+
+/* portfolio section start */
+
+.portfolio{
+    height:100vh;
+    width:100vw;
+    background-color:#f8f9fa;
+}
+ 
+.portfolio-text{
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+ 
+/* .card-img-top{
+    padding:40px;
+} */
+.col{
+    width: 32%;
+    margin:12px;
+    padding:10px;
+}
+/* portfolio section end */
+
+/* about section start */
+.about{
+    height: 100vh;
+    width: 100vw;
+    color:black;
+}
+.about-text{
+    text-align: center;
+}
+/* about section end */
+
+/* team section start */
+.team{
+    height: auto;
+    width: 100vw;
+    background-color:#f8f9fa;
+    margin-top:400px;
+}
+.team-text{
+    text-align: center;
+    margin-top:20px;
+}
+.team-iteam{
+    width:30%;
+}
+.team-iteam img{
+    width:50%;
+    border-radius:50%;
+}
+.main-team{
+    display:flex;
+    justify-content:space-evenly;
+    text-align:center;
+    align-items:center;
+    justify-content:center;
+}
+.icon{
+    font-size:40px;
+    color:white;
+    background-color:black;
+    border-radius:50%;
+    padding:10px;
+    /* background-color:orange; */
+}
+
+.team-footer-tex{
+    text-align:center;
+    margin-top: 30px;
+}
+/* team section end */
+
+/* brand section start */
+.brand{
+    display:flex;
+    justify-content:space-evenly;
+}
+.brand i{
+    font-size: 80px;
+    margin: 20px;
+    padding: 10px;
+}
+.brand span{
+    font-size: 80px;
+}
+.brand img{
+    height:10%;
+    width: 10%;
+}
+/* brand section end */
+
+/* map section start */
+.map{
+    background-image: url(./images/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: auto;
+    width: 100vw;
+    background-color: black;
+}
+.map-text{
+    text-align: center;
+    color:white;
+}
+.form{
+    display:flex;
+    justify-content:space-around;
+}
+/* .input{
+    padding:10px 100px 10px 5px;
+    margin:20px;
+} */
+#name{
+    padding:10px 50px 10px 5px;
+    margin:20px;
+}
+#email{
+    padding:10px 50px 10px 5px;
+    margin:20px;
+}
+#phone{
+    padding:10px 50px 10px 5px;
+    margin:20px;
+}
+#message{
+    padding:10px 200px 200px 5px;
+    margin:20px;
+}
+button{
+    display:flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color:orange;
+    padding:5px 10px;
+    color:white;
+    border-radius: 5px;
+    margin:auto;
+}
+/* map section end */
+
+.another-icon{
+    display:flex;
+    justify-content:center;
+}
+.another-icon i{
+    margin:10px;
+    padding:10px;
+}
